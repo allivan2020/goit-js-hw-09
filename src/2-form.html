@@ -13,9 +13,19 @@
 
   <main>
     <div class="container">
-      <h1 class="main-title">
-        Form Page
-      </h1>
+
+      <form class="feedback-form" autocomplete="off">
+        <label class="label-text">
+          Email
+          <input type="email" name="email" autofocus class="input-area" />
+        </label>
+        <label class="label-text">
+          Message
+          <textarea name="message" rows="8" class="textarea-area"></textarea>
+        </label>
+        <button type="submit" class="form-btn">Submit</button>
+      </form>
+
       <a class="back-link" href="./index.html">Go back</a>
     </div>
   </main>
